@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+otro = "Gv2KVBGbkke2hLBxm7QK32nPoVDWQhECwbw8w1nKzhdX"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/bigjoe/.config/solana/id.json"
+
+[scripts]
+test = "node tests/otro.js" 
